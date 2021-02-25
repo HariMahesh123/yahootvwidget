@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <name>DreamTV</name>
+    <version>7.0.0</version>
+    <identifier>com.dreamtv.widgets.tv.video</identifier>
+    <author name="DreamTV Test" organization="DreamTV System Inc." href="http://www.dreamtvs.com" />
+    <copyright>2010</copyright>
+    <description>DreamTV Media player widget</description>
+    <platform minVersion="5.0" />
+	<settings>
+		<setting name="debug" value="off" />
+        <setting name="allowCustomObjectAttributes" value="true" />
+	</settings>
+    <security>
+		<filesystem>full</filesystem>
+		<command>true</command>
+        <http>all</http>    
+    </security>
+    <image usage="1920x1080.logo" src=""/>
+    <image usage="960x540.logo" src=""/>
+</metadata>
